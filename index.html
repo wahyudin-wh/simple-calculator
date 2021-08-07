@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- title -->
+  <title>Calculator!</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.2/sweetalert2.min.css">
+
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- heading -->
+    <div class="heading">
+      <h2>Simple Calculator</h2>
+      <p>You can use the calculator to calculate various Calculations</p>
+    </div>
+    
+    <div class="box">
+      <input type="number" id="input1" class="input" placeholder="Enter a number">
+      <input type="number" id="input2" class="input" placeholder="Enter a number">
+      <select class="operator">
+        <option value="add">Add</option>
+        <option value="substact">Substact</option>
+        <option value="multiply">Multiply</option>
+        <option value="divide">Divide</option>
+      </select>
+      <button type="button" class="button">Submit</button>
+    </div>
+    
+    <div class="result-container">
+      <h3>Result Calculations</h3>
+      <div class="box-result">
+        <span>...</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.2/sweetalert2.min.js"></script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
